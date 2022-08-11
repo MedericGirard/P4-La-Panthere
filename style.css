@@ -1046,3 +1046,6 @@ h4 {
         float: left;
     }
 }
+.black ,.icon-md{
+    color: #000000!important;
+}
