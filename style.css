@@ -1040,3 +1040,9 @@ h4 {
         text-align: center;
     }
 }
+@media (max-width: 767px) {
+    .col-sm-3{
+        width: 25%;
+        float: left;
+    }
+}
