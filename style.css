@@ -538,7 +538,7 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+/* a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -554,7 +554,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-}
+} */
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
@@ -1041,6 +1041,9 @@ h4 {
         width: 25%;
         float: left;
     }
+    .img-responsive{
+        display: inline;
+    }
 }
 .black ,.icon-md{
     color: #000000!important;
@@ -1050,10 +1053,6 @@ h4 {
 }
 .citation span{
         font-weight: bold;
-}
-.col-xs-12
-    {
-    margin: auto;
 }
 .col-sm-12{
     text-align: center;
